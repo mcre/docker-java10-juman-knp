@@ -2,7 +2,7 @@ FROM openjdk:10-jre-slim
 
 RUN apt-get update
 RUN apt-get update
-RUN apt-get install -y wget build-essential libcdb-dev libjuman zlib1g-dev
+RUN apt-get install -y wget build-essential libcdb-dev libjuman zlib1g-dev git
 WORKDIR /root
 RUN wget -O juman-7.01.tar.bz2 http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/juman/juman-7.01.tar.bz2
 RUN wget -O knp-4.19.tar.bz2 http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/knp/knp-4.19.tar.bz2
