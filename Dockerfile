@@ -19,3 +19,5 @@ RUN make
 RUN make install
 ENV PATH $PATH:/root/usr/bin
 WORKDIR /root
+RUN rm /root/juman-7.01.tar.bz2
+RUN rm /root/knp-4.19.tar.bz2
