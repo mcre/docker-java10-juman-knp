@@ -1,4 +1,4 @@
-FROM openjdk:10-jre-slim
+FROM openjdk:10-jdk-slim
 
 RUN apt-get update
 RUN apt-get update
