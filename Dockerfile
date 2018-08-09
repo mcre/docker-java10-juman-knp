@@ -16,5 +16,5 @@ RUN apt-get update \
  && make && make install && make clean \
  && rm /root/juman-7.01.tar.bz2 \
  && rm /root/knp-4.19.tar.bz2 \
- && apt-get --purge autoremove wget build-essential
+ && apt-get --purge -y autoremove wget build-essential
 ENV PATH $PATH:/root/usr/bin
